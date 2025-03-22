@@ -1,0 +1,14 @@
+#make a local repository 
+git remote add origin git@github.com:Mh0lg3rs/GitCourse1.git
+
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Mh0lg3rs/GitCourse1.git
+git push -u origin main
+
+#check git repository is made
+git remote -v
+    origin  https://github.com/Mh0lg3rs/GitCourse1.git (fetch)
+    origin  https://github.com/Mh0lg3rs/GitCourse1.git (push)
+
